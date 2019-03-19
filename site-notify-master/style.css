@@ -11,6 +11,7 @@ body{
                          'footer footer footer footer';
     grid-template-rows: 580px 275px 500px 100px;
     /* grid-template-columns: 25vw 25vw 25vw 25vw; */
+    background-color: #696969;
 }
 header{
     grid-area: header;
@@ -97,7 +98,7 @@ nav div:nth-child(1){
     flex-direction: column;
 }
 .div-filha{
-    background-color: #2CC96E;
+    background-color: red;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
